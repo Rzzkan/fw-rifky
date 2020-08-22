@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="menu_icon">
+        <item>@drawable/ic_baseline_contact_phone_24</item>
+        <item>@drawable/ic_baseline_today_24</item>
+        <item>@drawable/ic_baseline_location_on_24</item>
+        <item>@drawable/ic_baseline_assignment_late_24</item>
+    </integer-array>
+
+    <string-array name="menu_title">
+        <item>Kontak</item>
+        <item>Jadwal</item>
+        <item>Lokasi</item>
+        <item>Buat Laporan</item>
+    </string-array>
+
+    <string-array name="menu_id">
+        <item>contact</item>
+        <item>schedule</item>
+        <item>location</item>
+        <item>add-report</item>
+    </string-array>
+
+</resources>

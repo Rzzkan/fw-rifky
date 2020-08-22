@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/spacing_mxlarge">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/lytDay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/etDay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Hari"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@color/primary_text" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+                        android:id="@+id/spinOfficer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        app:smsp_arrowPaddingTop="10dp"
+                        app:smsp_enableErrorLabel="false"
+                        app:smsp_enableFloatingLabel="false"
+                        app:smsp_hint="Petugas"
+                        app:smsp_hintColor="@color/secondary_text"
+                        app:smsp_hintSize="18sp"
+                        app:smsp_isSearchable="true"
+                        app:smsp_itemColor="@color/primary_text"
+                        app:smsp_itemSize="18sp"
+                        app:smsp_searchHeaderBackgroundColor="@color/colorPrimary"
+                        app:smsp_searchHeaderText="Pilih Petugas"
+                        app:smsp_searchHeaderTextColor="@color/icons"
+                        app:smsp_searchHintColor="@color/secondary_text"
+                        app:smsp_searchTextColor="@color/primary_text"
+                        app:smsp_selectedItemListColor="@color/colorPrimary"
+                        app:smsp_underlineColor="@color/icons" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/spacing_middle"
+                        android:layout_marginBottom="@dimen/spacing_middle"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btnSave"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/spacing_large"
+                            android:background="@drawable/btn_rounded"
+                            android:backgroundTint="@color/colorPrimary"
+                            android:text="Simpan"
+                            android:textColor="@android:color/white" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

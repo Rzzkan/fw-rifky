@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Dasbor" />
+
+    <item
+        android:id="@+id/nav_report"
+        android:icon="@drawable/ic_baseline_assignment_24"
+        android:checked="true"
+        android:title="Laporan" />
+
+    <item
+        android:id="@+id/nav_officer"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:checked="true"
+        android:title="Petugas" />
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:checked="true"
+        android:title="Akun" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:checked="true"
+        android:title="Keluar" />
+
+</menu>

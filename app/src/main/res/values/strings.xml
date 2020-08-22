@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pelaporan</string>
+
+    <!--    image picker string -->
+    <string name="lbl_set_profile_photo">Tetapkan Gambar Profil</string>
+    <string name="lbl_take_camera_picture">Mengambil Gambar</string>
+    <string name="lbl_choose_from_gallery">Pilih dari Galeri</string>
+    <string name="toast_image_intent_null">Opsi pemilih gambar tidak ada!</string>
+    <string name="dialog_permission_title">Berikan Izin</string>
+    <string name="dialog_permission_message">Aplikasi ini membutuhkan izin untuk menggunakan fitur ini. Anda dapat memberi mereka dalam pengaturan aplikasi.</string>
+    <string name="go_to_settings">Ke Pengaturan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
